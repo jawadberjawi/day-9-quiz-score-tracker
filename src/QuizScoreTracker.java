@@ -8,7 +8,8 @@ public class QuizScoreTracker {
 
         double totalScore = 0;
 
-        for (int i = 1; i <= stdCount; i++) {
+        for (int i = 1; i <= stdCount; i++) { // This loop calculates the total score of all students
+
             System.out.print("What is the student's name? ");
             String name = input.next();
 
